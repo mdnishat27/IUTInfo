@@ -1,22 +1,96 @@
 {
-    "facultylist":[
+    "facultylist": [
         {
-            "name":"Mohayeminul Islam"
+            "name": "Mohayeminul Islam"
         },
         {
-            "name":"Sabbir Ahmed"
+            "name": "Sabbir Ahmed"
         },
         {
-            "name":"Tajkia Rahman Toma"
+            "name": "Tajkia Rahman Toma"
         },
         {
-            "name":"Bakhtiar Hasan"
+            "name": "Bakhtiar Hasan"
         },
         {
-            "name":"Tasnim Ahmed"
+            "name": "Tasnim Ahmed"
         },
         {
-            "name":"Ridwan Kabir"
+            "name": "Ridwan Kabir"
+        }
+    ],
+    "Semester1": [
+        {
+            "coursecode": "SWE 4101",
+            "coursename": "Introduction to Software Engineering"
+        },
+        {
+            "coursecode": "CSE 4107",
+            "coursename": "Structured Programming I"
+        },
+        {
+            "coursecode": "CSE 4108",
+            "coursename": "Structured Programming I Lab"
+        },
+        {
+            "coursecode": "MATH 4141",
+            "coursename": "Geometry and Differential Calculus"
+        },
+        {
+            "coursecode": "CSE 4104",
+            "coursename": "Engineering Drawing Lab"
+        }
+    ],
+    "Semester2": [
+        {
+            "coursecode": "CSE 4203",
+            "coursename": "Discrete Mathematics"
+        },
+        {
+            "coursecode": "CSE 4205",
+            "coursename": "Digital Logic Design"
+        },
+        {
+            "coursecode": "CSE 4206",
+            "coursename": "Digital Logic Design"
+        },
+        {
+            "coursecode": "MATH 4241",
+            "coursename": "Integral Calculus and Differential Equations"
+        },
+        {
+            "coursecode": "SWE 4201",
+            "coursename": "Object Oriented Concepts I"
+        },
+        {
+            "coursecode": "SWE 4202",
+            "coursename": "Object Oriented Concepts I Lab"
+        }
+    ],
+    "Semester3": [
+        {
+            "coursecode": "CSE 4307",
+            "coursename": "Database Management System"
+        },
+        {
+            "coursecode": "CSE 4303",
+            "coursename": "Data Structures"
+        },
+        {
+            "coursecode": "CSE 4304",
+            "coursename": "Data Structures Lab"
+        },
+        {
+            "coursecode": "MATH 4341",
+            "coursename": "Linear Algebra"
+        },
+        {
+            "coursecode": "SWE 4301",
+            "coursename": "Object Oriented Concepts II"
+        },
+        {
+            "coursecode": "SWE 4302",
+            "coursename": "Object Oriented Concepts II Lab"
         }
     ]
 }
