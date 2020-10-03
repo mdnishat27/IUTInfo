@@ -1,6 +1,6 @@
 import React from 'react';
-import {Text, StyleSheet} from 'react-native';
-import { ScrollView } from 'react-native-gesture-handler';
+import {StyleSheet} from 'react-native';
+import {ScrollView} from 'react-native-gesture-handler';
 import MyButton from '../components/MyButton';
 
 function Semesters(){

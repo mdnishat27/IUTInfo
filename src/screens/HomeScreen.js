@@ -13,7 +13,7 @@ const HomeScreen= (props) =>{
             <Text style={style.textstyle}>Programme : SWE</Text>
             <Text>{"\n\n"}</Text>
             <TouchableOpacity onPress={function(){
-                console.log("My profile pressed");
+                props.navigation.navigate("Profile");
             }}>
                 <Text style={style.profiletextstyle}>My Profile</Text>
             </TouchableOpacity>
