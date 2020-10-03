@@ -10,6 +10,7 @@ import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack'
 import HomeScreen from './src/screens/HomeScreen';
+import Semesters from './src/screens/Semesters';
 
 const stack = createStackNavigator();
 
@@ -18,6 +19,7 @@ function App(){
     <NavigationContainer>
       <stack.Navigator initialRouteName='Home'>
         <stack.Screen name='Home' component={HomeScreen}/>
+        <stack.Screen name='Semesters' component={Semesters}/>
       </stack.Navigator>
     </NavigationContainer>
   );

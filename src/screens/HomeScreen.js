@@ -4,7 +4,7 @@ import { ScrollView, TouchableOpacity } from 'react-native-gesture-handler';
 import MyButton from '../components/MyButton';
 
 
-const HomeScreen= () =>{
+const HomeScreen= (props) =>{
     return(
         <ScrollView contentContainerStyle={style.viewstyle}>
             <Image style={style.imagestyle} source={require('../../assets/IUTlogo.png')}/>
@@ -20,7 +20,7 @@ const HomeScreen= () =>{
             <Text>{"\n"}</Text>
 
             <MyButton title="Semester wise Course List" onPress={function(){
-                console.log("course list button pressed");
+                props.navigation.navigate("Semesters");
             }}/>
             <MyButton title="List of Faculty Members" onPress={function(){
                 console.log("faculty list button pressed");
