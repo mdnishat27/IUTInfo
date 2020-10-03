@@ -10,13 +10,16 @@
             "name": "Tajkia Rahman Toma"
         },
         {
-            "name": "Bakhtiar Hasan"
+            "name": "Md. Bakhtiar Hasan"
         },
         {
             "name": "Tasnim Ahmed"
         },
         {
             "name": "Ridwan Kabir"
+        },
+        {
+            "name": " Faisal Hussain"
         }
     ],
     "Semester1": [
@@ -52,7 +55,7 @@
         },
         {
             "coursecode": "CSE 4206",
-            "coursename": "Digital Logic Design"
+            "coursename": "Digital Logic Design Lab"
         },
         {
             "coursecode": "MATH 4241",

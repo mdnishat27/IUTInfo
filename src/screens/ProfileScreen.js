@@ -10,7 +10,7 @@ function Profile() {
             <View style={style.viewstyle}>
                 <Text style={style.text2style}>Name : Md. Nishat Ishmum</Text>
                 <Text style={style.text2style}>Student ID : 170042027</Text>
-                <Text style={style.textstyle}>Room no : 504 South Hall of Residence</Text>
+                <Text style={style.textstyle}>Room no : 504, South Hall of Residence</Text>
                 <Text style={style.textstyle}>Email : nishatishmum@iut-dhaka.edu</Text>
             </View>
         </ScrollView>
