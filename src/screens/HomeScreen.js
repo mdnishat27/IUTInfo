@@ -23,7 +23,7 @@ const HomeScreen= (props) =>{
                 props.navigation.navigate("Semesters");
             }}/>
             <MyButton title="List of Faculty Members" onPress={function(){
-                console.log("faculty list button pressed");
+                props.navigation.navigate("Faculty List");
             }}/>
         </ScrollView>
     );
